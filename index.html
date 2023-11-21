@@ -43,6 +43,15 @@
             text-align: center;
         }
     </style>
+     <script>
+        // JavaScript to open all links in a new tab
+        window.addEventListener('DOMContentLoaded', function () {
+            var links = document.querySelectorAll('a');
+            links.forEach(function (link) {
+                link.setAttribute('target', '_blank');
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -78,7 +87,8 @@
     <section id="help">
         <h2>Help</h2>
         <p>Here is information that explains hows to use the app.</p>
-       <p>Click <a href="https://youtu.be/h9K8T_xDu0Q">here</a> to see a demonstration of the app.</p>
+       <p>Click <a href="https://youtu.be/h9K8T_xDu0Q"target = "_blank">here</a> to see a demonstration of the app.</p>
+        
     </section>
 
     <footer>
