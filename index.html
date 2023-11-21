@@ -1,92 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BrainTrain</title>
+    <title>ReviseWise Homepage</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
             margin: 0;
             padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
+            background-color: #f4f4f4;
         }
 
         header {
             background-color: #333;
             color: #fff;
+            padding: 1em 0;
             text-align: center;
-            padding: 1rem;
-            font-size: 1.5rem;
-            width: 100%;
         }
 
-        main {
+        nav {
+            background-color: #444;
+            padding: 1em 0;
             text-align: center;
-            padding: 2rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            background-color: #fff;
-            border-radius: 8px;
-            width: 80%;
-        }
-       img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 8px;
-        margin-top: 20px;
-        width: 100%; /* This will make the image fill its container */
         }
 
-        h1 {
-            color: #333;
-        }
-
-        p {
-            color: #555;
-            line-height: 1.6;
-        }
-
-        a {
-            color: #007BFF;
+        nav a {
+            color: #fff;
+            margin: 0 1em;
             text-decoration: none;
-            font-weight: bold;
         }
 
-        a:hover {
-            text-decoration: underline;
+        section {
+            padding: 2em;
         }
 
         footer {
-            margin-top: 2rem;
             background-color: #333;
             color: #fff;
+            padding: 1em 0;
             text-align: center;
-            padding: 1rem;
-            width: 100%;
         }
     </style>
 </head>
-<body>
 
+<body>
     <header>
-        BrainTrain Homepage
+        <h1>ReviseWise HomePage</h1>
     </header>
 
-    <main>
-        <h1>Welcome to BrainTrain Page</h1>
-        <p>By Clicking the link below you can Download the app!</p>
-              
-        <p>Click <a href="https://github.com/cialanjcampbell/braintrain.github.io/releases/download/v0.1.1/QuizNea.application">here</a> to Download.</p>
-    </main>
+    <nav>
+        <a href="#mainPage">Main Page</a>
+        <a href="#download">Download</a>
+        <a href="#contactUs">Contact Us</a>
+        <a href="#help">Help</a>
+    </nav>
+
+    <section id="mainPage">
+        <h2>Main Page</h2>
+        <p>Welcome to the Main Page of ReviseWise.</p>
+    </section>
+
+    <section id="download">
+        <h2>Download</h2>
+        <p>Click <a href="">here</a> to Download the app.</p>
+      
+    </section>
+
+    <section id="contactUs">
+        <h2>Contact Us</h2>
+        <p>Reach out to us using the contact details provided.</p>        
+   
+
+    </section>
+
+    <section id="help">
+        <h2>Help</h2>
+        <p>Here is information that explains hows to use the app.</p>
+       <p>Click <a href="https://youtu.be/h9K8T_xDu0Q">here</a> to see a demonstration of the app.</p>
+    </section>
 
     <footer>
-        © 2023 BrainTrain. All rights reserved.
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
     </footer>
-
 </body>
+
 </html>
